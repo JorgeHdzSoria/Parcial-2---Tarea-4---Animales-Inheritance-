@@ -1,7 +1,12 @@
-public class Condor extends Ave
+public class Condor extends Animal implements AnimalQueVuela
 {
     public String toString()
     {
         return "Condor";
+    }
+
+    @Override
+    public void vuela() {
+
     }
 }

@@ -1,7 +1,12 @@
-public class Gato extends Mamifero
+public class Gato extends Animal implements AnimalQueCamina
 {
     public String toString()
     {
         return "Gato";
+    }
+
+    @Override
+    public void camina() {
+
     }
 }
